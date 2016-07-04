@@ -25,7 +25,7 @@ exit 0
 # 2. process shell variables
 let's assume we have a variable：
 var='http://www.baidu.com/data'
-'''
+```
 @zdsuateng02:/home/c/h/chujq/> echo ${var%/*}
 http://www.baidu.com
 @zdsuateng02:/home/c/h/chujq/> echo ${var%%/*}
@@ -40,6 +40,6 @@ data
 http://www.sina.com/data
 @zdsuateng02:/home/c/h/chujq/> echo ${#var}
 25
-'''
+```
 
 
