@@ -42,4 +42,19 @@ http://www.sina.com/data
 25
 ```
 
+# 3. show the linux kernel version
 
+```
+chujq@linuxchu:/home/chujq/git/$uname -r
+4.4.0-28-generic
+
+```
+
+#4 Use dock
+## 4.1 start the docker
+$ sudo service docker start
+
+## 4.2 Verify docker is installed correctly.
+'''
+$ sudo docker run hello-world
+'''
